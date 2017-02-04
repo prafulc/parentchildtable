@@ -13,6 +13,9 @@ This module provides `<ParentChildTable>` directive and list the output in table
 This table will show child just below its parent. 
 ## How to use:
 ```
+import ParentChildTable from 'parentchildtable'; // using es6
+const ParentChildTable = require('parentchildtable');
+...
 <ParentChildTable { ... } >
 	<TableBodyComponent />
 </ParentChildTable>
