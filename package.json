@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "React.js table showing hirarchy of parent and child. Child will be display below there immediate parent.",
   "scripts": {
-    "compile": "babel -d lib/ src/",
     "build": "babel -d lib/ src/ --presets=es2015,react,stage-0",
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +13,8 @@
     "parent",
     "child",
     "relation",
-    "table"
+    "table",
+    "react js table"
   ],
   "author": { 
     "name" : "Praful Chandekar", 
@@ -24,7 +24,7 @@
   "license": "ISC",
   "repository" : { 
     "type" : "git", 
-    "url" : "https://github.com/npm/npm.git"
+    "url" : "https://github.com/prafulc/parentchildtable"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
