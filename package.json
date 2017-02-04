@@ -1,0 +1,35 @@
+{
+  "name": "parentchildtable",
+  "version": "0.1.0",
+  "description": "React.js table showing hirarchy of parent and child. Child will be display below there immediate parent.",
+  "scripts": {
+    "compile": "babel -d lib/ src/",
+    "build": "babel -d lib/ src/ --presets=es2015,react,stage-0",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "lib/index.js",
+  "keywords": [
+    "react-table",
+    "parent",
+    "child",
+    "relation",
+    "table"
+  ],
+  "author": "PrafulC",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.4.1",
+    "react": "^15.4.2",
+    "react-addons-pure-render-mixin": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0"
+  }
+}
