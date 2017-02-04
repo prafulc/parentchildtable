@@ -16,14 +16,19 @@
     "relation",
     "table"
   ],
-  "author": "PrafulC",
+  "author": { 
+    "name" : "Praful Chandekar", 
+    "email" : "pchandekar10@gmail.com", 
+    "url" : "https://github.com/prafulc"
+  },
   "license": "ISC",
+  "repository" : { 
+    "type" : "git", 
+    "url" : "https://github.com/npm/npm.git"
+  },
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "core-js": "^2.4.1",
     "react": "^15.4.2",
-    "react-addons-pure-render-mixin": "^15.4.2",
-    "react-dom": "^15.4.2",
     "underscore": "^1.8.3"
   },
   "devDependencies": {

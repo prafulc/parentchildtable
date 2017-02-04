@@ -165,6 +165,8 @@ and for type two data ie data with childrens in parent in it
 </ParentChildTable>
 ```
 
+Check the [demo](https://github.com/prafulc/parent-child-react-table) in with meteor framework
+
 Finally data we have used
 ```
 export var table = [
